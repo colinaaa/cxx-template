@@ -1,2 +1,2 @@
-# luogu
-my algo practices on https://www.luogu.org
+# cxx-template
+my template for cxx
