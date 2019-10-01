@@ -55,7 +55,10 @@
         "tuple": "cpp",
         "typeinfo": "cpp",
         "utility": "cpp",
-        "variant": "cpp"
+        "variant": "cpp",
+        "gsl_*": "cpp",
+        "span": "cpp",
+        "gsl": "cpp"
     },
     "editor.tabSize": 2,
     "C_Cpp.default.cppStandard": "c++17",

@@ -1,1 +1,1 @@
-INSTALL_FILES(/include FILES *.h)
+add_subdirectory(gsl)
