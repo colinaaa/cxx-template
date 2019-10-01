@@ -9,3 +9,6 @@ rebuild:
 	rm -r build
 	mkdir build; cd build; cmake ../
 
+.PHONY: cmake
+cmake:
+	cd build; cmake ../
