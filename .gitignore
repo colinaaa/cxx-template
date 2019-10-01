@@ -33,3 +33,7 @@
 
 # Cmake
 build
+
+# clangd indexes
+
+.clangd
