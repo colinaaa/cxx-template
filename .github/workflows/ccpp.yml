@@ -9,8 +9,14 @@ jobs:
     
     steps:
     - uses: actions/checkout@v1
-    - name: cmake
-      run: mkdir build; make cmake
+    - name: dep
+      env: 
+        CI: gh
+        CXX: clang++
+        CC: clang
+      run: make ci
     - name: test
+      env:
+        CI: gh
       run: make test
 
