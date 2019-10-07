@@ -6,7 +6,6 @@ install: make ci
 
 compiler:
   - clang
-  - gcc
 
 os:
   - linux
