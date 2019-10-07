@@ -20,3 +20,6 @@ addons:
 
 env:
   - CI=travis
+
+script:
+  - make test
